@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Image by <a href="https://www.freepik.com/free-vector/hand-drawn-animation-frames-element-set_32390038.htm#query=flying%20bird%20svg&position=7&from_view=search&track=ais">Freepik</a>*/
+.container {
+    background-color: #000C66;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.game-container{
+    overflow: hidden;
+    position: relative;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    min-width: 1200px;
+    max-width: 1200px;
+    min-height: 600px;
+    max-height: 600px;
+    border: 1px;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 4px;
+    animation-duration: 0.1s;
+    background-color: #7EC8E3;
+    
+}
+.game-name {
+    font-family: 'handjet';
+    font-size: 50px;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    margin: 0.5rem;
+    color: white;
+    
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.score {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 10%;
+    font-size: 50px;
+}
+.information {
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    left: 23%;
+    top: 40%;
+    animation-name: toZeroOpacity2;
+    animation-duration: 1.5s;
+    animation-timing-function: smooth;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    
+}
+.information-tutorial {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    
+}
+.information-tutorial, p {
+    margin: 5px;
+}
+.bird{
+    position: absolute ;
+    top: 59%;
+    width: 50px;
+    
+    height: 35px;
+    
+}
+
+.tunnel{
+    position: absolute;
+    left: 40%;
+    top: 100%;
+    width: 80px;
+    height: 200px;
+    transform: translateY(-100%); 
+}
+.tunnel2{
+    position: absolute;
+    left: 80%;
+    top: 100%;
+    width: 80px;
+    height: 200px;
+    transform: translateY(-100%); 
+}
+.tunnel3{
+    position: absolute;
+    left: 120%;
+    top: 100%;
+    width: 80px;
+    height: 200px;
+    transform: translateY(-100%); 
+}
+.tunnel-inverted {
+    position: absolute;
+    left: 40%;
+    transform: rotate(180deg) scaleX(-1);
+    width: 80px;
+    height: 200px;
+}
+
+.tunnel-inverted2 {
+    position: absolute;
+    left: 80%;
+    transform: rotate(180deg) scaleX(-1);
+    width: 80px;
+    height: 200px;
+}
+
+.tunnel-inverted3 {
+    position: absolute;
+    left: 120%;
+    transform: rotate(180deg) scaleX(-1);
+    width: 80px;
+    height: 200px;
+}
+.sound {
+    position: absolute;
+    z-index: 1;
+    left: 96%;
+    top: 2%;
+    width: 30px;
+    height: 30px
+}
+.not-display {
+    display: none;
+}
+footer {
+    background-color: #000C66;
+}
+.footer-container {
+    text-align: center;
+}
+footer div p {
+    color: white;
+    margin:0;
+    font-size: 10px;
+}
+a {
+    text-decoration: none;  
+    color: white;
+    
+}
+.rhuan-link {
+    text-decoration: underline;
+    font-size: medium;
+}
+/*Scrollbar Part*/
+/*Chrome/Safari*/
+::-webkit-scrollbar {
+    width: 4px; /* Width of the scrollbar */
+    background-color: #000C66;
+}
+::-webkit-scrollbar:hover {
+    background-color: #1b2362;
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #7EC8E3; 
+    border-radius: 10px; 
+}
+  
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #377d96; 
+}
+  
+/*Firefox*/
+* {
+    scrollbar-color: #7EC8E3 #1b2362   ;
+
+}
+
+*:hover {
+    scrollbar-color: #7EC8E3 #1b2362;
+
+}
+  
+@keyframes wingsFlied {
+    0% {top: var(--from); left:var(--left);}
+    
+    100% {top: var(--to); left: var(--to-f)}
+}
+@keyframes toZeroOpacity {
+    from{opacity: 100%;}
+    to{opacity: 0%;}
+}
+@keyframes toZeroOpacity2 {
+    0%{opacity: 100%;}
+    50%{opacity: 0%;}
+    100%{opacity: 100%;}
+}
+@keyframes endGame {
+    to{border: solid 10px red;}
+}
