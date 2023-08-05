@@ -29,7 +29,7 @@ Fly between the Tunnels.
 Have a Good Game!
 
 <!-- Adjust width and height for gameplay images as needed -->
-<img src="./imgs/gameplay-start.png" alt="Gameplay Start" width="400" height="400">
-<img src="./imgs/gameplay-closed-bird.png" alt="Closed Bird" width="400" height="400">
-<img src="./imgs/gameplay-slowdown-bird.png" alt="Slowdown Bird Gameplay" width="400" height="400">
-<img src="./imgs/gameplay-diving-bird.png" alt="Diving Bird Gameplay" width="400" height="400">
+<img src="./imgs/gameplay-start.png" alt="Gameplay Start" width="600" height="400">
+<img src="./imgs/gameplay-closed-bird.png" alt="Closed Bird" width="600" height="400">
+<img src="./imgs/gameplay-slowdown-bird.png" alt="Slowdown Bird Gameplay" width="600" height="400">
+<img src="./imgs/gameplay-diving-bird.png" alt="Diving Bird Gameplay" width="600" height="400">
