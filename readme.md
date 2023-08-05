@@ -8,7 +8,7 @@ This is a Desktop-Browser game that was inspired by FlappyBird, but a little mor
 
 ### Purpose
 
-Practice and improve domain of Pure Javascript, CSS, and HTML.
+Practice and improve proficiency of Pure Javascript, CSS, and HTML.
 
 ### How To Play
 

@@ -80,7 +80,7 @@
                 <img src="../imgs/gameplay-start.png">
                 <img src="../imgs/gameplay-closed-bird.png">
                 <img src="../imgs/gameplay-slowdown-bird.png">
-                <img src="../imgs/gameplay-diping-bird.png">
+                <img src="./imgs/gameplay-diping-bird.png">
             <div>
         </div>
     </foreignObject>
