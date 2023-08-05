@@ -1,3 +1,35 @@
-<div align="center">
-    <img src="./svgs/readme.svg" width="400" height="400" alt="css-in-readme">
-</div>
+# My GitHub README
+
+Welcome to my README!
+
+## BIRD-BIRD
+
+This game was inspired by FlappyBird, but a little more dynamic, with some new mechanics.
+
+### Purpose
+
+Practice and improve domain of Pure Javascript, CSS, and HTML.
+
+### How To Play
+
+Fly between the Tunnels.
+
+-  **SPACE**
+    The Bird will fly.
+    <img src="./imgs/normal-bird.png" alt="Normal Bird" width="70" height="50">
+
+- **Q** 
+    The Bird will Slowdown.
+    <img src="./imgs/normal-bird.png" alt="Slowdown Bird" width="70" height="50"> <!-- Adjust width and height as needed -->
+
+- **E** 
+    The Bird will increase the speed of fall and go to the front.
+    <img src="./imgs/downing-bird.png" alt="Downing Bird" width="70" height="50"> <!-- Adjust width and height as needed -->
+
+Have a Good Game!
+
+<!-- Adjust width and height for gameplay images as needed -->
+<img src="./imgs/gameplay-start.png" alt="Gameplay Start" width="400" height="400">
+<img src="./imgs/gameplay-closed-bird.png" alt="Closed Bird" width="400" height="400">
+<img src="./imgs/gameplay-slowdown-bird.png" alt="Slowdown Bird Gameplay" width="400" height="400">
+<img src="./imgs/gameplay-diving-bird.png" alt="Diving Bird Gameplay" width="400" height="400">
