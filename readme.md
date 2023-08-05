@@ -26,7 +26,8 @@ Fly between the Tunnels.
     The Bird will increase the speed of fall and go to front.
     <img src="./imgs/downing-bird.png" alt="Downing Bird" width="70" height="50"> <!-- Adjust width and height as needed -->
 
-Have a Good Game!
+Have a Good Game! 
+# [PLAY](https://the-bird-orpin.vercel.app/)
 
 <!-- Adjust width and height for gameplay images as needed -->
 <img src="./imgs/gameplay-start.png" alt="Gameplay Start" width="800" height="400">
