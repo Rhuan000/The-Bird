@@ -1,7 +1,3 @@
-# My GitHub README
-
-Welcome to my README!
-
 ## BIRD-BIRD
 
 This is a Desktop-Browser game that was inspired by FlappyBird, but a little more dynamic, with some new mechanics.
