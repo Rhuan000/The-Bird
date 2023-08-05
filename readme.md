@@ -23,7 +23,7 @@ Fly between the Tunnels.
     <img src="./imgs/normal-bird.png" alt="Slowdown Bird" width="70" height="50"> <!-- Adjust width and height as needed -->
 
 - **E** 
-    The Bird will increase the speed of fall and go to the front.
+    The Bird will increase the speed of fall and go to front.
     <img src="./imgs/downing-bird.png" alt="Downing Bird" width="70" height="50"> <!-- Adjust width and height as needed -->
 
 Have a Good Game!
