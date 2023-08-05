@@ -4,7 +4,7 @@ Welcome to my README!
 
 ## BIRD-BIRD
 
-This game was inspired by FlappyBird, but a little more dynamic, with some new mechanics.
+This is a Desktop-Browser game that was inspired by FlappyBird, but a little more dynamic, with some new mechanics.
 
 ### Purpose
 
