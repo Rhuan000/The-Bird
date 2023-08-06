@@ -1,6 +1,6 @@
 export function flyUp(bird){
     //Logic Barrier to not let the Bird fly higher than virtual Roof (top side of game-container).
-    let sizeOfJump = 85
+    let sizeOfJump = 80
     let birdAchieveRoof = 20 + bird.topPosition()
     if(birdAchieveRoof < sizeOfJump){
         sizeOfJump = birdAchieveRoof
@@ -14,7 +14,7 @@ export function flyUp(bird){
     document.documentElement.style.setProperty('--from', bird.topPosition() + 'px')
     document.documentElement.style.setProperty('--to',  bird.topPosition() - sizeOfJump + 'px')
     bird.element.style.animationName = 'wingsFlied'
-    bird.element.style.animationDuration = '0.45s'
+    bird.element.style.animationDuration = '0.5s'
     bird.element.style.animationTimeDuration = 'linear'
     
     // Reset the bird's img after the animation ends, Spread wings effect.
