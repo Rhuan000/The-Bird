@@ -40,5 +40,6 @@ export function flySlowdown(bird){
     bird.element.style.transform = 'rotate(-45deg)'
     if(bird.leftPosition() > 10){
         bird.setPositionLeft(bird.leftPosition() - 2 + 'px' )  
+        bird.setPositionTop(bird.topPosition() + 1 + 'px' ) 
     } 
 }
